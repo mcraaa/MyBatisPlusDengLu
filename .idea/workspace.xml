@@ -278,6 +278,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -393,7 +394,7 @@
       <updated>1590129477488</updated>
       <workItem from="1590129480738" duration="545000" />
       <workItem from="1590130157825" duration="7058000" />
-      <workItem from="1590137307058" duration="1861000" />
+      <workItem from="1590137307058" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1590138582416</created>
@@ -402,14 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590138582416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试">
+      <created>1590141551879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590141551879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9464000" />
+    <option name="totallyTimeSpent" value="9658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
