@@ -30,7 +30,7 @@ public class UserController {
         queryWrapper.eq("uName",user.getUname());
         queryWrapper.eq("password",user.getPassword());
         User u=userService.getOne(queryWrapper);
-        System.out.println("qqqqq");
+
         if (u!=null){
             //账号密码没有问题
             if (u.getFlag().equals("1")){

@@ -12,11 +12,11 @@
     <title>Title</title>
     <script type="text/javascript" src="../../js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript">
-        alert("111");
-        $(function(){
-            $("#btn").on("click",function(){
+        $(function () {
+            $("#btn").on("click",function () {
                 var show='';//错误字符串的显示
                 var flag=true;
+
                 var uname=$("#uname").val();
                 var pwd=$("#pwd").val();
                 if (uname==''||uname==undefined){
@@ -28,12 +28,10 @@
                 }
                 if (show==''&&flag==true){
                     $("#formId").submit();
-
                 }else {
                     alert(show);
                     return;
                 }
-                alert("222");
             });
         });
     </script>
@@ -44,7 +42,7 @@
 <form:form action="/doLogin" method="post" modelAttribute="user" id="formId">
     账号：<form:input path="uname" id="uname"/><br>
     密码：<form:password path="password" id="pwd"/><br>
-    <input type="button" value="提交" id="btn">
+    <input type="submit" value="提交" id="btn">
 </form:form>
 
 </body>
